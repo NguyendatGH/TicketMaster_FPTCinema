@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Assignment">
+    <Resource auth="Container" 
+              name="jdbc/Assignment" 
+              driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+              url="jdbc:sqlserver://localhost:1433;databaseName=your db name;" 
+              logAbandoned="true" 
+              maxActive="100" 
+              maxIdle="30" 
+              maxWait="10000" 
+              username="your username"
+              password="your password" 
+              removeAbandoned="true" 
+              removeAbandonedTimeout="60" 
+              type="javax.sql.DataSource" 
+              
+    />
+</Context>
